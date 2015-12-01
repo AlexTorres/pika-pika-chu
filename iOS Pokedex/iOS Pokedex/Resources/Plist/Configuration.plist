@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIVersion</key>
+	<string>v1/</string>
+	<key>Debug</key>
+	<dict>
+		<key>APIEndPoint</key>
+		<string>http://pokeapi.co/api/</string>
+	</dict>
+	<key>Release</key>
+	<dict>
+		<key>APIEndPoint</key>
+		<string>http://pokeapi.co/api/</string>
+	</dict>
+</dict>
+</plist>

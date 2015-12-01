@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A7A7AE81C0E4C0700251D97 /* PKDRootWireFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7AE71C0E4C0700251D97 /* PKDRootWireFrame.m */; };
+		6A7A7AEC1C0E5C5400251D97 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7AEB1C0E5C5400251D97 /* Configuration.plist */; };
+		6A9B65A51C0E107E00B274E9 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65A41C0E107E00B274E9 /* Constants.m */; };
+		6A9B65A81C0E115E00B274E9 /* PKDConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65A71C0E115E00B274E9 /* PKDConfiguration.m */; };
+		6A9B65AD1C0E2D4400B274E9 /* PKDService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65AC1C0E2D4400B274E9 /* PKDService.m */; };
+		6A9B65E61C0E34EC00B274E9 /* PKDPokedexModuleAPIDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65D21C0E34EC00B274E9 /* PKDPokedexModuleAPIDataManager.m */; };
+		6A9B65E71C0E34EC00B274E9 /* PKDPokedexModuleLocalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65D51C0E34EC00B274E9 /* PKDPokedexModuleLocalDataManager.m */; };
+		6A9B65E81C0E34EC00B274E9 /* PKDPokedexModuleInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65D81C0E34EC00B274E9 /* PKDPokedexModuleInteractor.m */; };
+		6A9B65E91C0E34EC00B274E9 /* PKDPokedexModuleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65DA1C0E34EC00B274E9 /* PKDPokedexModuleItem.m */; };
+		6A9B65EA1C0E34EC00B274E9 /* PKDPokedexModulePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65DD1C0E34EC00B274E9 /* PKDPokedexModulePresenter.m */; };
+		6A9B65EB1C0E34EC00B274E9 /* PKDPokedexModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65E21C0E34EC00B274E9 /* PKDPokedexModuleView.m */; };
+		6A9B65EC1C0E34EC00B274E9 /* PKDPokedexModuleWireFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65E51C0E34EC00B274E9 /* PKDPokedexModuleWireFrame.m */; };
+		6A9B65EF1C0E35D200B274E9 /* PKDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65EE1C0E35D200B274E9 /* PKDBaseModel.m */; };
+		6A9B65F21C0E3EF400B274E9 /* PKDPokemonListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65F11C0E3EF400B274E9 /* PKDPokemonListModel.m */; };
+		6A9B65F51C0E470000B274E9 /* PKDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65F41C0E470000B274E9 /* PKDTableViewController.m */; };
+		6A9B65F81C0E47BD00B274E9 /* PKDAppDependences.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65F71C0E47BD00B274E9 /* PKDAppDependences.m */; };
 		6AB95B6D1C0CFED6007D18D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB95B6C1C0CFED6007D18D0 /* main.m */; };
 		6AB95B701C0CFED6007D18D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB95B6F1C0CFED6007D18D0 /* AppDelegate.m */; };
 		6AB95B731C0CFED6007D18D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB95B721C0CFED6007D18D0 /* ViewController.m */; };
@@ -14,7 +30,7 @@
 		6AB95B781C0CFED6007D18D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB95B771C0CFED6007D18D0 /* Assets.xcassets */; };
 		6AB95B7B1C0CFED6007D18D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB95B791C0CFED6007D18D0 /* LaunchScreen.storyboard */; };
 		6AB95B861C0CFED7007D18D0 /* iOS_PokedexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB95B851C0CFED7007D18D0 /* iOS_PokedexTests.m */; };
-		6AC642621C0D068200D2CF10 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC642611C0D068200D2CF10 /* Service.m */; };
+		DC9E6E7640E029B779FFE97A /* libPods-iOS Pokedex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 715997A26D913C5F93EEE739 /* libPods-iOS Pokedex.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +44,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A7A7AE61C0E4C0700251D97 /* PKDRootWireFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDRootWireFrame.h; sourceTree = "<group>"; };
+		6A7A7AE71C0E4C0700251D97 /* PKDRootWireFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDRootWireFrame.m; sourceTree = "<group>"; };
+		6A7A7AEB1C0E5C5400251D97 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		6A9B65A31C0E107E00B274E9 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Common/Utilities/Constants.h; sourceTree = "<group>"; };
+		6A9B65A41C0E107E00B274E9 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Common/Utilities/Constants.m; sourceTree = "<group>"; };
+		6A9B65A61C0E115E00B274E9 /* PKDConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKDConfiguration.h; path = Common/Utilities/PKDConfiguration.h; sourceTree = "<group>"; };
+		6A9B65A71C0E115E00B274E9 /* PKDConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKDConfiguration.m; path = Common/Utilities/PKDConfiguration.m; sourceTree = "<group>"; };
+		6A9B65AA1C0E261E00B274E9 /* IOSPokedex-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IOSPokedex-PrefixHeader.pch"; sourceTree = "<group>"; };
+		6A9B65AB1C0E2D4400B274E9 /* PKDService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKDService.h; path = Common/Service/PKDService.h; sourceTree = "<group>"; };
+		6A9B65AC1C0E2D4400B274E9 /* PKDService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKDService.m; path = Common/Service/PKDService.m; sourceTree = "<group>"; };
+		6A9B65D11C0E34EC00B274E9 /* PKDPokedexModuleAPIDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokedexModuleAPIDataManager.h; sourceTree = "<group>"; };
+		6A9B65D21C0E34EC00B274E9 /* PKDPokedexModuleAPIDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokedexModuleAPIDataManager.m; sourceTree = "<group>"; };
+		6A9B65D41C0E34EC00B274E9 /* PKDPokedexModuleLocalDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokedexModuleLocalDataManager.h; sourceTree = "<group>"; };
+		6A9B65D51C0E34EC00B274E9 /* PKDPokedexModuleLocalDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokedexModuleLocalDataManager.m; sourceTree = "<group>"; };
+		6A9B65D71C0E34EC00B274E9 /* PKDPokedexModuleInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokedexModuleInteractor.h; sourceTree = "<group>"; };
+		6A9B65D81C0E34EC00B274E9 /* PKDPokedexModuleInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokedexModuleInteractor.m; sourceTree = "<group>"; };
+		6A9B65D91C0E34EC00B274E9 /* PKDPokedexModuleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokedexModuleItem.h; sourceTree = "<group>"; };
+		6A9B65DA1C0E34EC00B274E9 /* PKDPokedexModuleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokedexModuleItem.m; sourceTree = "<group>"; };
+		6A9B65DC1C0E34EC00B274E9 /* PKDPokedexModulePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokedexModulePresenter.h; sourceTree = "<group>"; };
+		6A9B65DD1C0E34EC00B274E9 /* PKDPokedexModulePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokedexModulePresenter.m; sourceTree = "<group>"; };
+		6A9B65DF1C0E34EC00B274E9 /* PKDPokedexModuleProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokedexModuleProtocols.h; sourceTree = "<group>"; };
+		6A9B65E11C0E34EC00B274E9 /* PKDPokedexModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokedexModuleView.h; sourceTree = "<group>"; };
+		6A9B65E21C0E34EC00B274E9 /* PKDPokedexModuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokedexModuleView.m; sourceTree = "<group>"; };
+		6A9B65E41C0E34EC00B274E9 /* PKDPokedexModuleWireFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokedexModuleWireFrame.h; sourceTree = "<group>"; };
+		6A9B65E51C0E34EC00B274E9 /* PKDPokedexModuleWireFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokedexModuleWireFrame.m; sourceTree = "<group>"; };
+		6A9B65ED1C0E35D200B274E9 /* PKDBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDBaseModel.h; sourceTree = "<group>"; };
+		6A9B65EE1C0E35D200B274E9 /* PKDBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDBaseModel.m; sourceTree = "<group>"; };
+		6A9B65F01C0E3EF400B274E9 /* PKDPokemonListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonListModel.h; sourceTree = "<group>"; };
+		6A9B65F11C0E3EF400B274E9 /* PKDPokemonListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonListModel.m; sourceTree = "<group>"; };
+		6A9B65F31C0E470000B274E9 /* PKDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDTableViewController.h; sourceTree = "<group>"; };
+		6A9B65F41C0E470000B274E9 /* PKDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDTableViewController.m; sourceTree = "<group>"; };
+		6A9B65F61C0E47BD00B274E9 /* PKDAppDependences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDAppDependences.h; sourceTree = "<group>"; };
+		6A9B65F71C0E47BD00B274E9 /* PKDAppDependences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDAppDependences.m; sourceTree = "<group>"; };
 		6AB95B681C0CFED6007D18D0 /* iOS Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Pokedex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB95B6C1C0CFED6007D18D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6AB95B6E1C0CFED6007D18D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,8 +90,9 @@
 		6AB95B811C0CFED7007D18D0 /* iOS PokedexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS PokedexTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB95B851C0CFED7007D18D0 /* iOS_PokedexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_PokedexTests.m; sourceTree = "<group>"; };
 		6AB95B871C0CFED7007D18D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AC642601C0D068200D2CF10 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Service.h; path = Common/Service/Service.h; sourceTree = "<group>"; };
-		6AC642611C0D068200D2CF10 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Service.m; path = Common/Service/Service.m; sourceTree = "<group>"; };
+		715997A26D913C5F93EEE739 /* libPods-iOS Pokedex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Pokedex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947204AAEABDDF755C2E10B5 /* Pods-iOS Pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Pokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Pokedex/Pods-iOS Pokedex.release.xcconfig"; sourceTree = "<group>"; };
+		CD60518FE8B444D73250ED5A /* Pods-iOS Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Pokedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Pokedex/Pods-iOS Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9E6E7640E029B779FFE97A /* libPods-iOS Pokedex.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +114,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16F18E0FF50988227DD1CDA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD60518FE8B444D73250ED5A /* Pods-iOS Pokedex.debug.xcconfig */,
+				947204AAEABDDF755C2E10B5 /* Pods-iOS Pokedex.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A7A7AE91C0E5C5400251D97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A7AEA1C0E5C5400251D97 /* Plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6A7A7AEA1C0E5C5400251D97 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A7AEB1C0E5C5400251D97 /* Configuration.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		6A9B65A21C0E0FFD00B274E9 /* Utitlities */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65A31C0E107E00B274E9 /* Constants.h */,
+				6A9B65A41C0E107E00B274E9 /* Constants.m */,
+				6A9B65A61C0E115E00B274E9 /* PKDConfiguration.h */,
+				6A9B65A71C0E115E00B274E9 /* PKDConfiguration.m */,
+			);
+			name = Utitlities;
+			sourceTree = "<group>";
+		};
+		6A9B65CE1C0E34EC00B274E9 /* PKDPokedexModule */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65CF1C0E34EC00B274E9 /* DataManager */,
+				6A9B65D61C0E34EC00B274E9 /* Interactor */,
+				6A9B65DB1C0E34EC00B274E9 /* Presenter */,
+				6A9B65DE1C0E34EC00B274E9 /* Protocols */,
+				6A9B65E01C0E34EC00B274E9 /* View */,
+				6A9B65E31C0E34EC00B274E9 /* WireFrame */,
+			);
+			name = PKDPokedexModule;
+			path = Modules/PKDPokedexModule;
+			sourceTree = "<group>";
+		};
+		6A9B65CF1C0E34EC00B274E9 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65D01C0E34EC00B274E9 /* API */,
+				6A9B65D31C0E34EC00B274E9 /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6A9B65D01C0E34EC00B274E9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65D11C0E34EC00B274E9 /* PKDPokedexModuleAPIDataManager.h */,
+				6A9B65D21C0E34EC00B274E9 /* PKDPokedexModuleAPIDataManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6A9B65D31C0E34EC00B274E9 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65D41C0E34EC00B274E9 /* PKDPokedexModuleLocalDataManager.h */,
+				6A9B65D51C0E34EC00B274E9 /* PKDPokedexModuleLocalDataManager.m */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6A9B65D61C0E34EC00B274E9 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65D71C0E34EC00B274E9 /* PKDPokedexModuleInteractor.h */,
+				6A9B65D81C0E34EC00B274E9 /* PKDPokedexModuleInteractor.m */,
+				6A9B65D91C0E34EC00B274E9 /* PKDPokedexModuleItem.h */,
+				6A9B65DA1C0E34EC00B274E9 /* PKDPokedexModuleItem.m */,
+				6A9B65ED1C0E35D200B274E9 /* PKDBaseModel.h */,
+				6A9B65EE1C0E35D200B274E9 /* PKDBaseModel.m */,
+				6A9B65F01C0E3EF400B274E9 /* PKDPokemonListModel.h */,
+				6A9B65F11C0E3EF400B274E9 /* PKDPokemonListModel.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6A9B65DB1C0E34EC00B274E9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65DC1C0E34EC00B274E9 /* PKDPokedexModulePresenter.h */,
+				6A9B65DD1C0E34EC00B274E9 /* PKDPokedexModulePresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6A9B65DE1C0E34EC00B274E9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65DF1C0E34EC00B274E9 /* PKDPokedexModuleProtocols.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6A9B65E01C0E34EC00B274E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65E11C0E34EC00B274E9 /* PKDPokedexModuleView.h */,
+				6A9B65E21C0E34EC00B274E9 /* PKDPokedexModuleView.m */,
+				6A9B65F31C0E470000B274E9 /* PKDTableViewController.h */,
+				6A9B65F41C0E470000B274E9 /* PKDTableViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A9B65E31C0E34EC00B274E9 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65E41C0E34EC00B274E9 /* PKDPokedexModuleWireFrame.h */,
+				6A9B65E51C0E34EC00B274E9 /* PKDPokedexModuleWireFrame.m */,
+				6A7A7AE61C0E4C0700251D97 /* PKDRootWireFrame.h */,
+				6A7A7AE71C0E4C0700251D97 /* PKDRootWireFrame.m */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
 		6AB95B5F1C0CFED5007D18D0 = {
 			isa = PBXGroup;
 			children = (
+				6A9B65AA1C0E261E00B274E9 /* IOSPokedex-PrefixHeader.pch */,
 				6AB95B6A1C0CFED6007D18D0 /* iOS Pokedex */,
 				6AB95B841C0CFED7007D18D0 /* iOS PokedexTests */,
 				6AB95B691C0CFED6007D18D0 /* Products */,
+				16F18E0FF50988227DD1CDA4 /* Pods */,
+				731F8ECD0C5BFF8B5BDCC3EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,10 +269,15 @@
 		6AB95B6A1C0CFED6007D18D0 /* iOS Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				6A7A7AE91C0E5C5400251D97 /* Resources */,
+				6A9B65CE1C0E34EC00B274E9 /* PKDPokedexModule */,
+				6A9B65A21C0E0FFD00B274E9 /* Utitlities */,
 				6AC6425E1C0D048A00D2CF10 /* Common */,
 				6AB95B6E1C0CFED6007D18D0 /* AppDelegate.h */,
 				6AB95B6F1C0CFED6007D18D0 /* AppDelegate.m */,
 				6AB95B711C0CFED6007D18D0 /* ViewController.h */,
+				6A9B65F61C0E47BD00B274E9 /* PKDAppDependences.h */,
+				6A9B65F71C0E47BD00B274E9 /* PKDAppDependences.m */,
 				6AB95B721C0CFED6007D18D0 /* ViewController.m */,
 				6AB95B741C0CFED6007D18D0 /* Main.storyboard */,
 				6AB95B771C0CFED6007D18D0 /* Assets.xcassets */,
@@ -126,10 +316,18 @@
 		6AC6425F1C0D049600D2CF10 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				6AC642601C0D068200D2CF10 /* Service.h */,
-				6AC642611C0D068200D2CF10 /* Service.m */,
+				6A9B65AB1C0E2D4400B274E9 /* PKDService.h */,
+				6A9B65AC1C0E2D4400B274E9 /* PKDService.m */,
 			);
 			name = Service;
+			sourceTree = "<group>";
+		};
+		731F8ECD0C5BFF8B5BDCC3EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				715997A26D913C5F93EEE739 /* libPods-iOS Pokedex.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AB95B8A1C0CFED7007D18D0 /* Build configuration list for PBXNativeTarget "iOS Pokedex" */;
 			buildPhases = (
+				F264FF2022264B55D32FD1CC /* Check Pods Manifest.lock */,
 				6AB95B641C0CFED6007D18D0 /* Sources */,
 				6AB95B651C0CFED6007D18D0 /* Frameworks */,
 				6AB95B661C0CFED6007D18D0 /* Resources */,
+				066EE96C8A98CEDD9A732630 /* Embed Pods Frameworks */,
+				A8572D5643A533B3BDBAFAFB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,6 +377,7 @@
 		6AB95B601C0CFED5007D18D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PKD;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Test;
 				TargetAttributes = {
@@ -213,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AB95B7B1C0CFED6007D18D0 /* LaunchScreen.storyboard in Resources */,
+				6A7A7AEC1C0E5C5400251D97 /* Configuration.plist in Resources */,
 				6AB95B781C0CFED6007D18D0 /* Assets.xcassets in Resources */,
 				6AB95B761C0CFED6007D18D0 /* Main.storyboard in Resources */,
 			);
@@ -227,15 +430,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		066EE96C8A98CEDD9A732630 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Pokedex/Pods-iOS Pokedex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8572D5643A533B3BDBAFAFB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Pokedex/Pods-iOS Pokedex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F264FF2022264B55D32FD1CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6AB95B641C0CFED6007D18D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A9B65A51C0E107E00B274E9 /* Constants.m in Sources */,
+				6A9B65F81C0E47BD00B274E9 /* PKDAppDependences.m in Sources */,
+				6A9B65AD1C0E2D4400B274E9 /* PKDService.m in Sources */,
+				6A9B65E71C0E34EC00B274E9 /* PKDPokedexModuleLocalDataManager.m in Sources */,
+				6A9B65F21C0E3EF400B274E9 /* PKDPokemonListModel.m in Sources */,
+				6A9B65EA1C0E34EC00B274E9 /* PKDPokedexModulePresenter.m in Sources */,
 				6AB95B731C0CFED6007D18D0 /* ViewController.m in Sources */,
-				6AC642621C0D068200D2CF10 /* Service.m in Sources */,
 				6AB95B701C0CFED6007D18D0 /* AppDelegate.m in Sources */,
+				6A9B65A81C0E115E00B274E9 /* PKDConfiguration.m in Sources */,
+				6A9B65E61C0E34EC00B274E9 /* PKDPokedexModuleAPIDataManager.m in Sources */,
+				6A9B65F51C0E470000B274E9 /* PKDTableViewController.m in Sources */,
+				6A9B65E81C0E34EC00B274E9 /* PKDPokedexModuleInteractor.m in Sources */,
+				6A9B65EB1C0E34EC00B274E9 /* PKDPokedexModuleView.m in Sources */,
+				6A9B65EF1C0E35D200B274E9 /* PKDBaseModel.m in Sources */,
+				6A9B65EC1C0E34EC00B274E9 /* PKDPokedexModuleWireFrame.m in Sources */,
 				6AB95B6D1C0CFED6007D18D0 /* main.m in Sources */,
+				6A7A7AE81C0E4C0700251D97 /* PKDRootWireFrame.m in Sources */,
+				6A9B65E91C0E34EC00B274E9 /* PKDPokedexModuleItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,8 +624,10 @@
 		};
 		6AB95B8B1C0CFED7007D18D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD60518FE8B444D73250ED5A /* Pods-iOS Pokedex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IOSPokedex-PrefixHeader.pch";
 				INFOPLIST_FILE = "iOS Pokedex/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mewtwo.iOS-Pokedex";
@@ -370,8 +637,10 @@
 		};
 		6AB95B8C1C0CFED7007D18D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947204AAEABDDF755C2E10B5 /* Pods-iOS Pokedex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IOSPokedex-PrefixHeader.pch";
 				INFOPLIST_FILE = "iOS Pokedex/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mewtwo.iOS-Pokedex";

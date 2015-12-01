@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "PKDAppDependences.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) PKDAppDependences *dependencies;
 @end
 
 @implementation AppDelegate
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
+    
+    PKDAppDependences *dependencies = [[PKDAppDependences alloc] init];
+    self.dependencies = dependencies;
+    
+    [self.dependencies installRootViewControllerIntoWindow:self.window];
   return YES;
 }
 

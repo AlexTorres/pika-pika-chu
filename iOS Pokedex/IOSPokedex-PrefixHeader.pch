@@ -1,0 +1,17 @@
+//
+//  IOSPokedex-PrefixHeader.pch
+//  iOS Pokedex
+//
+//  Created by iOS Development on 12/1/15.
+//  Copyright © 2015 Test. All rights reserved.
+//
+
+#ifndef IOSPokedex_PrefixHeader_pch
+#define IOSPokedex_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Constants.h"
+#import "JSONModel.h"
+
+#endif /* IOSPokedex_PrefixHeader_pch */
