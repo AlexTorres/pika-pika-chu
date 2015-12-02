@@ -13,3 +13,6 @@ NSString *const kAPIKey = @"APIEndPoint";
 NSString *const kVersionKey = @"APIVersion";
 NSString *const kPokedexPath = @"pokedex/1/";
 NSString *const kPokedexViewID = @"PokedexView";
+NSString *const kPokemonListCellID = @"PokemonListCell";
+NSString *const kPokemonViewID = @"PokemonViewModule";
+NSString *const kPokemonPropCellID = @"PokemonPropCellID";

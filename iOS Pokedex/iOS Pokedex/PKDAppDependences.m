@@ -18,29 +18,23 @@
 
 @implementation PKDAppDependences
 
-- (id)init
-{
-    if ((self = [super init]))
-    {
+- (id)init {
+    if ((self = [super init])) {
         [self configureDependencies];
     }
     
     return self;
 }
 
-- (void)installRootViewControllerIntoWindow:(UIWindow *)window
-{
+- (void)installRootViewControllerIntoWindow:(UIWindow *)window {
     [self.pokedexWireframe presentPKDPokedexModuleModuleFrom:window];
 }
 
-- (void)configureDependencies
-{
+- (void)configureDependencies {
     PKDPokedexModuleWireFrame *pokedexWireframe = [[PKDPokedexModuleWireFrame alloc] init];
     PKDRootWireFrame *rootWireframe = [[PKDRootWireFrame alloc] init];
     pokedexWireframe.rootWireframe = rootWireframe;
     self.pokedexWireframe = pokedexWireframe;
 }
-
-
 
 @end

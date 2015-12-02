@@ -13,6 +13,10 @@ extern NSString *const kAPIKey;
 extern NSString *const kVersionKey;
 extern NSString *const kPokedexPath;
 extern NSString *const kPokedexViewID;
+extern NSString *const kPokemonListCellID;
+extern NSString *const kPokemonViewID;
+extern NSString *const kPokemonPropCellID;
+
 
 typedef void (^PKDSuccessBlock)(id,BOOL);
 typedef void (^PKDErrorBlock)(NSError*);

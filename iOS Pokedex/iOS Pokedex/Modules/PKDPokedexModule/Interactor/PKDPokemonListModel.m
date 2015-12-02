@@ -10,8 +10,8 @@
 
 @implementation PKDPokemonListModel
 
-+(JSONKeyMapper*)keyMapper
-{
++(JSONKeyMapper*)keyMapper {
+    
     return [JSONKeyMapper mapperFromUnderscoreCaseToCamelCase];
 }
 

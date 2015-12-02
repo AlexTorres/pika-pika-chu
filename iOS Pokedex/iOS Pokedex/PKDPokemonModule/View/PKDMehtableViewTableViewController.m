@@ -1,22 +1,21 @@
 //
-//  PKDTableViewController.m
+//  PKDMehtableViewTableViewController.m
 //  iOS Pokedex
 //
-//  Created by iOS Development on 12/1/15.
+//  Created by iOS Development on 12/2/15.
 //  Copyright © 2015 Test. All rights reserved.
 //
 
-#import "PKDTableViewController.h"
+#import "PKDMehtableViewTableViewController.h"
 
-@interface PKDTableViewController ()
+@interface PKDMehtableViewTableViewController ()
 
 @end
 
-@implementation PKDTableViewController
+@implementation PKDMehtableViewTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

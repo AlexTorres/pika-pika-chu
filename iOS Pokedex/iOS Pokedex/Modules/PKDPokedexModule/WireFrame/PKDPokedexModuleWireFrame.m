@@ -17,6 +17,8 @@
     id <PKDPokedexModuleAPIDataManagerInputProtocol> APIDataManager = [PKDPokedexModuleAPIDataManager new];
     id <PKDPokedexModuleLocalDataManagerInputProtocol> localDataManager = [PKDPokedexModuleLocalDataManager new];
     
+    id <PKDPokemonModuleWireFrameProtocol> pokemonWireFrame = [PKDPokemonModuleWireFrame new];
+    
     // Connecting
     view.presenter = presenter;
     presenter.view = view;
@@ -26,10 +28,19 @@
     interactor.APIDataManager = APIDataManager;
     interactor.localDataManager = localDataManager;
     
+    self.pokemonWireFrame = (PKDPokemonModuleWireFrame*) pokemonWireFrame;
+    
+    self.pokedexView = (PKDPokedexModuleView*)view;
+    
     [self.rootWireframe showRootViewController:(PKDPokedexModuleView*)view
                                       inWindow:window];
     
     //TOODO - New view controller presentation (present, push, pop, .. )
+}
+
+- (void)pushPokemonInterface:(id)pokemon
+{
+    [self.pokemonWireFrame presentPKDPokemonModuleModuleFrom:self.pokedexView pokemonObject:pokemon];
 }
 
 

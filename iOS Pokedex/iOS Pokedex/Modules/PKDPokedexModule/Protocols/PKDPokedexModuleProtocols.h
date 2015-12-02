@@ -32,6 +32,8 @@
 /**
  * Add here your methods for communication PRESENTER -> WIREFRAME
  */
+
+- (void)pushPokemonInterface:(id)pokemon;
 @end
 
 @protocol PKDPokedexModulePresenterProtocol
@@ -43,6 +45,7 @@
  * Add here your methods for communication VIEWCONTROLLER -> PRESENTER
  */
 -(void)updatePokedex;
+-(void)gotoPokemon:(id)pokemon;
 @end
 
 @protocol PKDPokedexModuleInteractorOutputProtocol

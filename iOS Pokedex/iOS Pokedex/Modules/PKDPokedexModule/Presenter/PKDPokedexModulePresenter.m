@@ -11,7 +11,13 @@
 -(void)updatePokedex {
     [self.interactor loadEntriesFormAPI];
 }
+
 -(void)reloadedEntries:(PKDPokedexModuleItem *)moduleItem {
     [self.view reloadedPokedex:moduleItem];
 }
+
+-(void)gotoPokemon:(id)pokemon {
+    [self.wireFrame pushPokemonInterface:pokemon];
+}
+
 @end

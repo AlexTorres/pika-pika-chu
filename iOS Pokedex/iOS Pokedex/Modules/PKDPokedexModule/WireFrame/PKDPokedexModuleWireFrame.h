@@ -13,10 +13,13 @@
 #import "PKDPokedexModuleWireframe.h"
 #import "PKDRootWireFrame.h"
 #import <UIKit/UIKit.h>
+#import "PKDPokemonModuleWireFrame.h"
 
 
 @interface PKDPokedexModuleWireFrame : NSObject <PKDPokedexModuleWireFrameProtocol>
 
 @property (nonatomic, strong) PKDRootWireFrame *rootWireframe;
+@property (nonatomic, strong) PKDPokedexModuleView *pokedexView;
+@property (nonatomic, strong) PKDPokemonModuleWireFrame *pokemonWireFrame;
 
 @end

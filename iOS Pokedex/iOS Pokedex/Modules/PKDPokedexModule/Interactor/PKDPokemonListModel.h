@@ -14,6 +14,6 @@
 @interface PKDPokemonListModel : JSONModel
 
 @property (strong, nonatomic) NSString* name;
-@property (assign, nonatomic) NSString* resourceUri;
+@property (strong, nonatomic) NSString* resourceUri;
 
 @end

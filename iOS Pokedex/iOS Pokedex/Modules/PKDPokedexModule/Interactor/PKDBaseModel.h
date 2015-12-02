@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PKDBaseModel : NSObject
+
+@protocol PKDBaseModel
+@end
+@interface PKDBaseModel : JSONModel
+
+
+@property (strong, nonatomic) NSString* name;
+@property (strong, nonatomic) NSString* resourceUri;
 
 @end

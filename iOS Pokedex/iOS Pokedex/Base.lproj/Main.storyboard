@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Pokedex Module View-->
@@ -15,15 +16,65 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="dJ0-Hm-Oa7">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PokemonListCell" id="dJ0-Hm-Oa7" customClass="PKDPokedexTableViewCell">
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dJ0-Hm-Oa7" id="nVC-iP-3NU">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POKEMON_NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wge-Ul-a42">
+                                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="JQc-zc-FlT"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="JQc-zc-FlT"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="heightClass=regular-widthClass=compact">
+                                                <mask key="constraints">
+                                                    <include reference="JQc-zc-FlT"/>
+                                                </mask>
+                                            </variation>
+                                        </label>
+                                    </subviews>
                                     <animations/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="wge-Ul-a42" secondAttribute="bottom" constant="11" id="6kh-wi-JGa"/>
+                                        <constraint firstItem="wge-Ul-a42" firstAttribute="centerY" secondItem="nVC-iP-3NU" secondAttribute="centerY" id="QmS-lf-BKq"/>
+                                        <constraint firstItem="wge-Ul-a42" firstAttribute="leading" secondItem="nVC-iP-3NU" secondAttribute="leading" constant="30" id="ls0-Yc-XKx"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="subviews">
+                                            <exclude reference="wge-Ul-a42"/>
+                                        </mask>
+                                        <mask key="constraints">
+                                            <exclude reference="6kh-wi-JGa"/>
+                                            <exclude reference="QmS-lf-BKq"/>
+                                            <exclude reference="ls0-Yc-XKx"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <mask key="subviews">
+                                            <include reference="wge-Ul-a42"/>
+                                        </mask>
+                                        <mask key="constraints">
+                                            <include reference="6kh-wi-JGa"/>
+                                            <include reference="QmS-lf-BKq"/>
+                                            <include reference="ls0-Yc-XKx"/>
+                                        </mask>
+                                    </variation>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <connections>
+                                    <outlet property="pokemonNameLabel" destination="wge-Ul-a42" id="Fzf-Pw-xhf"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -36,25 +87,83 @@
             </objects>
             <point key="canvasLocation" x="1002" y="1006.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Pokemon Module View-->
+        <scene sceneID="16E-mD-Say">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <tableViewController storyboardIdentifier="PokemonViewModule" id="HUp-wj-ieI" customClass="PKDPokemonModuleView" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="73" sectionHeaderHeight="25" sectionFooterHeight="18" id="9vx-oh-yMr">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="nl0-9T-lV0"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="qjU-9f-vsQ">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I4p-je-9qY">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="323" id="nAN-Oa-vcw"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="nAN-Oa-vcw"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <mask key="constraints">
+                                            <include reference="nAN-Oa-vcw"/>
+                                        </mask>
+                                    </variation>
+                                </imageView>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="I4p-je-9qY" firstAttribute="bottom" secondItem="qjU-9f-vsQ" secondAttribute="bottomMargin" id="XGB-oU-Y1v"/>
+                                <constraint firstItem="I4p-je-9qY" firstAttribute="top" secondItem="qjU-9f-vsQ" secondAttribute="topMargin" constant="20" id="gx3-Be-BKn"/>
+                                <constraint firstItem="I4p-je-9qY" firstAttribute="centerX" secondItem="qjU-9f-vsQ" secondAttribute="centerX" id="r8V-2c-0lL"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="I4p-je-9qY"/>
+                                </mask>
+                                <mask key="constraints">
+                                    <exclude reference="XGB-oU-Y1v"/>
+                                    <exclude reference="gx3-Be-BKn"/>
+                                    <exclude reference="r8V-2c-0lL"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="subviews">
+                                    <include reference="I4p-je-9qY"/>
+                                </mask>
+                                <mask key="constraints">
+                                    <include reference="XGB-oU-Y1v"/>
+                                    <include reference="gx3-Be-BKn"/>
+                                    <include reference="r8V-2c-0lL"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PokemonPropCellID" rowHeight="73" id="U7c-xh-T08">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U7c-xh-T08" id="SPn-fh-3VH">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="HUp-wj-ieI" id="fk9-he-so8"/>
+                            <outlet property="delegate" destination="HUp-wj-ieI" id="xW3-qL-B4A"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Klo-eE-2kN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1761" y="960"/>
+            <point key="canvasLocation" x="1668" y="998.25"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WuS-Zo-fxR">

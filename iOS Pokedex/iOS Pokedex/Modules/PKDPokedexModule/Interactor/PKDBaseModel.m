@@ -10,4 +10,8 @@
 
 @implementation PKDBaseModel
 
++(JSONKeyMapper*)keyMapper {
+    
+    return [JSONKeyMapper mapperFromUnderscoreCaseToCamelCase];
+}
 @end
