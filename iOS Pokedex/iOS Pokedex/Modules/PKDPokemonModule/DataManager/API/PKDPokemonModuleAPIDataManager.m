@@ -13,9 +13,7 @@
 - (void) pokemonFromString:(NSString*)pokemonURI
                 APISuccess:(PKDSuccessBlock)successBlock
                   failture:(PKDErrorBlock)failtureBlock {
-    
     NSString *apiEndPoint = [[PKDConfiguration sharedInstance] apiEndPoint];
-   // NSString *apiVersion = [[PKDConfiguration sharedInstance] apiVersion];
     NSString *path = [NSString stringWithFormat:@"%@%@", apiEndPoint,pokemonURI];
     
     [[PKDService sharedInstance] getServiceWithPath:path paramethers:[NSDictionary dictionary]  success:^(NSDictionary *response, BOOL success) {
@@ -24,7 +22,6 @@
     } error:^(NSError *error) {
         failtureBlock(error);
     }];
-
 }
 
 @end

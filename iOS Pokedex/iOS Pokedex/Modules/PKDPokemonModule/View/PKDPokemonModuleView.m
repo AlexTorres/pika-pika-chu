@@ -12,27 +12,12 @@
 
 #pragma mark - ViewController Lifecycle
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     self.title = self.pokemonListModel.name;
     [self.presenter loadPokemonWithString:self.pokemonListModel.resourceUri];
 }
 
-- (void)viewDidDisappear:(BOOL)animated
-{
-    [super viewDidDisappear:animated];
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-}
 -(void)reloadPokemonInfo:(NSArray*)sections
                     rows:(NSArray*)rows
                    model:(PKDPokemonModuleItem*) itemModel {

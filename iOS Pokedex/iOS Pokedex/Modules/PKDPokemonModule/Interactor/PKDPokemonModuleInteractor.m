@@ -11,12 +11,10 @@
 -(void) loadPokemonFromApi:(NSString*)pokemonString {
     [self.APIDataManager pokemonFromString:pokemonString APISuccess:^(PKDPokemonModuleItem *response, BOOL success) {
         [self.presenter entriesFromInteractor:[[response toDictionary]allKeys] rows:[self procesedArray:response] model:response];
-    
-        
     } failture:^(NSError *error) {
-        
     }];
 }
+
 -(NSArray*)procesedArray:(PKDPokemonModuleItem*)pokemonItem {
     NSArray * sections = [[pokemonItem toDictionary]allKeys];
     NSMutableArray *valuesForKeys = [NSMutableArray array];

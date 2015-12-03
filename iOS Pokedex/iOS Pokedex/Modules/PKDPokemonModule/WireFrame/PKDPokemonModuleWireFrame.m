@@ -7,8 +7,7 @@
 
 @implementation PKDPokemonModuleWireFrame
 
-- (void)presentPKDPokemonModuleModuleFrom:(UIViewController*)fromViewController pokemonObject:(id)pokemon
-{
+- (void)presentPKDPokemonModuleModuleFrom:(UIViewController*)fromViewController pokemonObject:(id)pokemon {
     // Generating module components
     id <PKDPokemonModuleViewProtocol> view = [self pokedexControllerFromStoryboard];
     id <PKDPokemonModulePresenterProtocol, PKDPokemonModuleInteractorOutputProtocol> presenter = [PKDPokemonModulePresenter new];
@@ -34,8 +33,7 @@
 }
 
 
-- (PKDPokemonModuleView *)pokedexControllerFromStoryboard
-{
+- (PKDPokemonModuleView *)pokedexControllerFromStoryboard {
     UIStoryboard *storyboard = [self mainStoryboard];
     PKDPokemonModuleView *viewController = [storyboard instantiateViewControllerWithIdentifier:kPokemonViewID];
     
@@ -43,8 +41,7 @@
 }
 
 
-- (UIStoryboard *)mainStoryboard
-{
+- (UIStoryboard *)mainStoryboard {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main"
                                                          bundle:[NSBundle mainBundle]];
     
