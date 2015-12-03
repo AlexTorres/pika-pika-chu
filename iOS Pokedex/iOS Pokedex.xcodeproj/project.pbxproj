@@ -10,14 +10,6 @@
 		6A7A7AE81C0E4C0700251D97 /* PKDRootWireFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7AE71C0E4C0700251D97 /* PKDRootWireFrame.m */; };
 		6A7A7AEC1C0E5C5400251D97 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A7AEB1C0E5C5400251D97 /* Configuration.plist */; };
 		6A7A7AEF1C0F2D3E00251D97 /* PKDPokedexTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7AEE1C0F2D3E00251D97 /* PKDPokedexTableViewCell.m */; };
-		6A7A7B081C0F400E00251D97 /* PKDPokemonModuleAPIDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7AF41C0F400E00251D97 /* PKDPokemonModuleAPIDataManager.m */; };
-		6A7A7B091C0F400E00251D97 /* PKDPokemonModuleLocalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7AF71C0F400E00251D97 /* PKDPokemonModuleLocalDataManager.m */; };
-		6A7A7B0A1C0F400E00251D97 /* PKDPokemonModuleInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7AFA1C0F400E00251D97 /* PKDPokemonModuleInteractor.m */; };
-		6A7A7B0B1C0F400E00251D97 /* PKDPokemonModuleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7AFC1C0F400E00251D97 /* PKDPokemonModuleItem.m */; };
-		6A7A7B0C1C0F400E00251D97 /* PKDPokemonModulePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7AFF1C0F400E00251D97 /* PKDPokemonModulePresenter.m */; };
-		6A7A7B0D1C0F400E00251D97 /* PKDPokemonModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7B041C0F400E00251D97 /* PKDPokemonModuleView.m */; };
-		6A7A7B0E1C0F400E00251D97 /* PKDPokemonModuleWireFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7B071C0F400E00251D97 /* PKDPokemonModuleWireFrame.m */; };
-		6A7A7B141C0F811100251D97 /* PKDEvolutionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7B131C0F811100251D97 /* PKDEvolutionItem.m */; };
 		6A7A7B1D1C0F905E00251D97 /* NSString+PKDStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A7B1C1C0F905E00251D97 /* NSString+PKDStringAdditions.m */; };
 		6A9B65A51C0E107E00B274E9 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65A41C0E107E00B274E9 /* Constants.m */; };
 		6A9B65A81C0E115E00B274E9 /* PKDConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B65A71C0E115E00B274E9 /* PKDConfiguration.m */; };
@@ -40,6 +32,14 @@
 		6AB95B7B1C0CFED6007D18D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB95B791C0CFED6007D18D0 /* LaunchScreen.storyboard */; };
 		6AB95B861C0CFED7007D18D0 /* iOS_PokedexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB95B851C0CFED7007D18D0 /* iOS_PokedexTests.m */; };
 		DC9E6E7640E029B779FFE97A /* libPods-iOS Pokedex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 715997A26D913C5F93EEE739 /* libPods-iOS Pokedex.a */; };
+		FA3113F91C0FD78300C762BD /* PKDPokemonModuleAPIDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3113E31C0FD78300C762BD /* PKDPokemonModuleAPIDataManager.m */; };
+		FA3113FA1C0FD78300C762BD /* PKDPokemonModuleLocalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3113E61C0FD78300C762BD /* PKDPokemonModuleLocalDataManager.m */; };
+		FA3113FB1C0FD78300C762BD /* PKDEvolutionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3113E91C0FD78300C762BD /* PKDEvolutionItem.m */; };
+		FA3113FC1C0FD78300C762BD /* PKDPokemonModuleInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3113EB1C0FD78300C762BD /* PKDPokemonModuleInteractor.m */; };
+		FA3113FD1C0FD78300C762BD /* PKDPokemonModuleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3113ED1C0FD78300C762BD /* PKDPokemonModuleItem.m */; };
+		FA3113FE1C0FD78300C762BD /* PKDPokemonModulePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3113F01C0FD78300C762BD /* PKDPokemonModulePresenter.m */; };
+		FA3113FF1C0FD78300C762BD /* PKDPokemonModuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3113F51C0FD78300C762BD /* PKDPokemonModuleView.m */; };
+		FA3114001C0FD78300C762BD /* PKDPokemonModuleWireFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3113F81C0FD78300C762BD /* PKDPokemonModuleWireFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,23 +58,6 @@
 		6A7A7AEB1C0E5C5400251D97 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 		6A7A7AED1C0F2D3E00251D97 /* PKDPokedexTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKDPokedexTableViewCell.h; path = PokedexCell/PKDPokedexTableViewCell.h; sourceTree = "<group>"; };
 		6A7A7AEE1C0F2D3E00251D97 /* PKDPokedexTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKDPokedexTableViewCell.m; path = PokedexCell/PKDPokedexTableViewCell.m; sourceTree = "<group>"; };
-		6A7A7AF31C0F400E00251D97 /* PKDPokemonModuleAPIDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleAPIDataManager.h; sourceTree = "<group>"; };
-		6A7A7AF41C0F400E00251D97 /* PKDPokemonModuleAPIDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleAPIDataManager.m; sourceTree = "<group>"; };
-		6A7A7AF61C0F400E00251D97 /* PKDPokemonModuleLocalDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleLocalDataManager.h; sourceTree = "<group>"; };
-		6A7A7AF71C0F400E00251D97 /* PKDPokemonModuleLocalDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleLocalDataManager.m; sourceTree = "<group>"; };
-		6A7A7AF91C0F400E00251D97 /* PKDPokemonModuleInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleInteractor.h; sourceTree = "<group>"; };
-		6A7A7AFA1C0F400E00251D97 /* PKDPokemonModuleInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleInteractor.m; sourceTree = "<group>"; };
-		6A7A7AFB1C0F400E00251D97 /* PKDPokemonModuleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleItem.h; sourceTree = "<group>"; };
-		6A7A7AFC1C0F400E00251D97 /* PKDPokemonModuleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleItem.m; sourceTree = "<group>"; };
-		6A7A7AFE1C0F400E00251D97 /* PKDPokemonModulePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModulePresenter.h; sourceTree = "<group>"; };
-		6A7A7AFF1C0F400E00251D97 /* PKDPokemonModulePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModulePresenter.m; sourceTree = "<group>"; };
-		6A7A7B011C0F400E00251D97 /* PKDPokemonModuleProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleProtocols.h; sourceTree = "<group>"; };
-		6A7A7B031C0F400E00251D97 /* PKDPokemonModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleView.h; sourceTree = "<group>"; };
-		6A7A7B041C0F400E00251D97 /* PKDPokemonModuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleView.m; sourceTree = "<group>"; };
-		6A7A7B061C0F400E00251D97 /* PKDPokemonModuleWireFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleWireFrame.h; sourceTree = "<group>"; };
-		6A7A7B071C0F400E00251D97 /* PKDPokemonModuleWireFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleWireFrame.m; sourceTree = "<group>"; };
-		6A7A7B121C0F811100251D97 /* PKDEvolutionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDEvolutionItem.h; sourceTree = "<group>"; };
-		6A7A7B131C0F811100251D97 /* PKDEvolutionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDEvolutionItem.m; sourceTree = "<group>"; };
 		6A7A7B1B1C0F905E00251D97 /* NSString+PKDStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+PKDStringAdditions.h"; path = "iOS Pokedex/Common/Utilities/NSString+PKDStringAdditions.h"; sourceTree = SOURCE_ROOT; };
 		6A7A7B1C1C0F905E00251D97 /* NSString+PKDStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+PKDStringAdditions.m"; path = "iOS Pokedex/Common/Utilities/NSString+PKDStringAdditions.m"; sourceTree = SOURCE_ROOT; };
 		6A9B65A31C0E107E00B274E9 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Common/Utilities/Constants.h; sourceTree = "<group>"; };
@@ -121,6 +104,23 @@
 		715997A26D913C5F93EEE739 /* libPods-iOS Pokedex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Pokedex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		947204AAEABDDF755C2E10B5 /* Pods-iOS Pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Pokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Pokedex/Pods-iOS Pokedex.release.xcconfig"; sourceTree = "<group>"; };
 		CD60518FE8B444D73250ED5A /* Pods-iOS Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Pokedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Pokedex/Pods-iOS Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
+		FA3113E21C0FD78300C762BD /* PKDPokemonModuleAPIDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleAPIDataManager.h; sourceTree = "<group>"; };
+		FA3113E31C0FD78300C762BD /* PKDPokemonModuleAPIDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleAPIDataManager.m; sourceTree = "<group>"; };
+		FA3113E51C0FD78300C762BD /* PKDPokemonModuleLocalDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleLocalDataManager.h; sourceTree = "<group>"; };
+		FA3113E61C0FD78300C762BD /* PKDPokemonModuleLocalDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleLocalDataManager.m; sourceTree = "<group>"; };
+		FA3113E81C0FD78300C762BD /* PKDEvolutionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDEvolutionItem.h; sourceTree = "<group>"; };
+		FA3113E91C0FD78300C762BD /* PKDEvolutionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDEvolutionItem.m; sourceTree = "<group>"; };
+		FA3113EA1C0FD78300C762BD /* PKDPokemonModuleInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleInteractor.h; sourceTree = "<group>"; };
+		FA3113EB1C0FD78300C762BD /* PKDPokemonModuleInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleInteractor.m; sourceTree = "<group>"; };
+		FA3113EC1C0FD78300C762BD /* PKDPokemonModuleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleItem.h; sourceTree = "<group>"; };
+		FA3113ED1C0FD78300C762BD /* PKDPokemonModuleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleItem.m; sourceTree = "<group>"; };
+		FA3113EF1C0FD78300C762BD /* PKDPokemonModulePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModulePresenter.h; sourceTree = "<group>"; };
+		FA3113F01C0FD78300C762BD /* PKDPokemonModulePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModulePresenter.m; sourceTree = "<group>"; };
+		FA3113F21C0FD78300C762BD /* PKDPokemonModuleProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleProtocols.h; sourceTree = "<group>"; };
+		FA3113F41C0FD78300C762BD /* PKDPokemonModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleView.h; sourceTree = "<group>"; };
+		FA3113F51C0FD78300C762BD /* PKDPokemonModuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleView.m; sourceTree = "<group>"; };
+		FA3113F71C0FD78300C762BD /* PKDPokemonModuleWireFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDPokemonModuleWireFrame.h; sourceTree = "<group>"; };
+		FA3113F81C0FD78300C762BD /* PKDPokemonModuleWireFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDPokemonModuleWireFrame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,94 +167,6 @@
 			path = Plist;
 			sourceTree = "<group>";
 		};
-		6A7A7AF01C0F400E00251D97 /* PKDPokemonModule */ = {
-			isa = PBXGroup;
-			children = (
-				6A7A7AF11C0F400E00251D97 /* DataManager */,
-				6A7A7AF81C0F400E00251D97 /* Interactor */,
-				6A7A7AFD1C0F400E00251D97 /* Presenter */,
-				6A7A7B001C0F400E00251D97 /* Protocols */,
-				6A7A7B021C0F400E00251D97 /* View */,
-				6A7A7B051C0F400E00251D97 /* WireFrame */,
-			);
-			path = PKDPokemonModule;
-			sourceTree = "<group>";
-		};
-		6A7A7AF11C0F400E00251D97 /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				6A7A7AF21C0F400E00251D97 /* API */,
-				6A7A7AF51C0F400E00251D97 /* Local */,
-			);
-			path = DataManager;
-			sourceTree = "<group>";
-		};
-		6A7A7AF21C0F400E00251D97 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				6A7A7AF31C0F400E00251D97 /* PKDPokemonModuleAPIDataManager.h */,
-				6A7A7AF41C0F400E00251D97 /* PKDPokemonModuleAPIDataManager.m */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		6A7A7AF51C0F400E00251D97 /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				6A7A7AF61C0F400E00251D97 /* PKDPokemonModuleLocalDataManager.h */,
-				6A7A7AF71C0F400E00251D97 /* PKDPokemonModuleLocalDataManager.m */,
-			);
-			path = Local;
-			sourceTree = "<group>";
-		};
-		6A7A7AF81C0F400E00251D97 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				6A7A7AF91C0F400E00251D97 /* PKDPokemonModuleInteractor.h */,
-				6A7A7AFA1C0F400E00251D97 /* PKDPokemonModuleInteractor.m */,
-				6A7A7AFB1C0F400E00251D97 /* PKDPokemonModuleItem.h */,
-				6A7A7AFC1C0F400E00251D97 /* PKDPokemonModuleItem.m */,
-				6A7A7B121C0F811100251D97 /* PKDEvolutionItem.h */,
-				6A7A7B131C0F811100251D97 /* PKDEvolutionItem.m */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		6A7A7AFD1C0F400E00251D97 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				6A7A7AFE1C0F400E00251D97 /* PKDPokemonModulePresenter.h */,
-				6A7A7AFF1C0F400E00251D97 /* PKDPokemonModulePresenter.m */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		6A7A7B001C0F400E00251D97 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				6A7A7B011C0F400E00251D97 /* PKDPokemonModuleProtocols.h */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		6A7A7B021C0F400E00251D97 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				6A7A7B031C0F400E00251D97 /* PKDPokemonModuleView.h */,
-				6A7A7B041C0F400E00251D97 /* PKDPokemonModuleView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6A7A7B051C0F400E00251D97 /* WireFrame */ = {
-			isa = PBXGroup;
-			children = (
-				6A7A7B061C0F400E00251D97 /* PKDPokemonModuleWireFrame.h */,
-				6A7A7B071C0F400E00251D97 /* PKDPokemonModuleWireFrame.m */,
-			);
-			path = WireFrame;
-			sourceTree = "<group>";
-		};
 		6A9B65A21C0E0FFD00B274E9 /* Utitlities */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,7 +191,7 @@
 				6A9B65E31C0E34EC00B274E9 /* WireFrame */,
 			);
 			name = PKDPokedexModule;
-			path = Modules/PKDPokedexModule;
+			path = ../PKDPokedexModule;
 			sourceTree = "<group>";
 		};
 		6A9B65CF1C0E34EC00B274E9 /* DataManager */ = {
@@ -387,9 +299,8 @@
 		6AB95B6A1C0CFED6007D18D0 /* iOS Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				FA3114011C0FD7B100C762BD /* Modules */,
 				6A7A7AE91C0E5C5400251D97 /* Resources */,
-				6A7A7AF01C0F400E00251D97 /* PKDPokemonModule */,
-				6A9B65CE1C0E34EC00B274E9 /* PKDPokedexModule */,
 				6A9B65A21C0E0FFD00B274E9 /* Utitlities */,
 				6AC6425E1C0D048A00D2CF10 /* Common */,
 				6AB95B6E1C0CFED6007D18D0 /* AppDelegate.h */,
@@ -447,6 +358,104 @@
 				715997A26D913C5F93EEE739 /* libPods-iOS Pokedex.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3113DF1C0FD78300C762BD /* PKDPokemonModule */ = {
+			isa = PBXGroup;
+			children = (
+				FA3113E01C0FD78300C762BD /* DataManager */,
+				FA3113E71C0FD78300C762BD /* Interactor */,
+				FA3113EE1C0FD78300C762BD /* Presenter */,
+				FA3113F11C0FD78300C762BD /* Protocols */,
+				FA3113F31C0FD78300C762BD /* View */,
+				FA3113F61C0FD78300C762BD /* WireFrame */,
+			);
+			name = PKDPokemonModule;
+			sourceTree = "<group>";
+		};
+		FA3113E01C0FD78300C762BD /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA3113E11C0FD78300C762BD /* API */,
+				FA3113E41C0FD78300C762BD /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		FA3113E11C0FD78300C762BD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FA3113E21C0FD78300C762BD /* PKDPokemonModuleAPIDataManager.h */,
+				FA3113E31C0FD78300C762BD /* PKDPokemonModuleAPIDataManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FA3113E41C0FD78300C762BD /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				FA3113E51C0FD78300C762BD /* PKDPokemonModuleLocalDataManager.h */,
+				FA3113E61C0FD78300C762BD /* PKDPokemonModuleLocalDataManager.m */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		FA3113E71C0FD78300C762BD /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FA3113E81C0FD78300C762BD /* PKDEvolutionItem.h */,
+				FA3113E91C0FD78300C762BD /* PKDEvolutionItem.m */,
+				FA3113EA1C0FD78300C762BD /* PKDPokemonModuleInteractor.h */,
+				FA3113EB1C0FD78300C762BD /* PKDPokemonModuleInteractor.m */,
+				FA3113EC1C0FD78300C762BD /* PKDPokemonModuleItem.h */,
+				FA3113ED1C0FD78300C762BD /* PKDPokemonModuleItem.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FA3113EE1C0FD78300C762BD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FA3113EF1C0FD78300C762BD /* PKDPokemonModulePresenter.h */,
+				FA3113F01C0FD78300C762BD /* PKDPokemonModulePresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FA3113F11C0FD78300C762BD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FA3113F21C0FD78300C762BD /* PKDPokemonModuleProtocols.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FA3113F31C0FD78300C762BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA3113F41C0FD78300C762BD /* PKDPokemonModuleView.h */,
+				FA3113F51C0FD78300C762BD /* PKDPokemonModuleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA3113F61C0FD78300C762BD /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				FA3113F71C0FD78300C762BD /* PKDPokemonModuleWireFrame.h */,
+				FA3113F81C0FD78300C762BD /* PKDPokemonModuleWireFrame.m */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		FA3114011C0FD7B100C762BD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6A9B65CE1C0E34EC00B274E9 /* PKDPokedexModule */,
+				FA3113DF1C0FD78300C762BD /* PKDPokemonModule */,
+			);
+			name = Modules;
+			path = Modules/PKDPokemonModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -602,33 +611,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3114001C0FD78300C762BD /* PKDPokemonModuleWireFrame.m in Sources */,
+				FA3113FC1C0FD78300C762BD /* PKDPokemonModuleInteractor.m in Sources */,
 				6A7A7AEF1C0F2D3E00251D97 /* PKDPokedexTableViewCell.m in Sources */,
 				6A9B65A51C0E107E00B274E9 /* Constants.m in Sources */,
-				6A7A7B0B1C0F400E00251D97 /* PKDPokemonModuleItem.m in Sources */,
 				6A7A7B1D1C0F905E00251D97 /* NSString+PKDStringAdditions.m in Sources */,
+				FA3113FF1C0FD78300C762BD /* PKDPokemonModuleView.m in Sources */,
 				6A9B65F81C0E47BD00B274E9 /* PKDAppDependences.m in Sources */,
 				6A9B65AD1C0E2D4400B274E9 /* PKDService.m in Sources */,
 				6A9B65E71C0E34EC00B274E9 /* PKDPokedexModuleLocalDataManager.m in Sources */,
 				6A9B65F21C0E3EF400B274E9 /* PKDPokemonListModel.m in Sources */,
 				6A9B65EA1C0E34EC00B274E9 /* PKDPokedexModulePresenter.m in Sources */,
-				6A7A7B0E1C0F400E00251D97 /* PKDPokemonModuleWireFrame.m in Sources */,
 				6AB95B731C0CFED6007D18D0 /* ViewController.m in Sources */,
 				6AB95B701C0CFED6007D18D0 /* AppDelegate.m in Sources */,
+				FA3113FA1C0FD78300C762BD /* PKDPokemonModuleLocalDataManager.m in Sources */,
 				6A9B65A81C0E115E00B274E9 /* PKDConfiguration.m in Sources */,
+				FA3113FB1C0FD78300C762BD /* PKDEvolutionItem.m in Sources */,
 				6A9B65E61C0E34EC00B274E9 /* PKDPokedexModuleAPIDataManager.m in Sources */,
-				6A7A7B0A1C0F400E00251D97 /* PKDPokemonModuleInteractor.m in Sources */,
+				FA3113F91C0FD78300C762BD /* PKDPokemonModuleAPIDataManager.m in Sources */,
 				6A9B65E81C0E34EC00B274E9 /* PKDPokedexModuleInteractor.m in Sources */,
 				6A9B65EB1C0E34EC00B274E9 /* PKDPokedexModuleView.m in Sources */,
 				6A9B65EF1C0E35D200B274E9 /* PKDBaseModel.m in Sources */,
 				6A9B65EC1C0E34EC00B274E9 /* PKDPokedexModuleWireFrame.m in Sources */,
-				6A7A7B141C0F811100251D97 /* PKDEvolutionItem.m in Sources */,
 				6AB95B6D1C0CFED6007D18D0 /* main.m in Sources */,
-				6A7A7B0D1C0F400E00251D97 /* PKDPokemonModuleView.m in Sources */,
 				6A7A7AE81C0E4C0700251D97 /* PKDRootWireFrame.m in Sources */,
-				6A7A7B081C0F400E00251D97 /* PKDPokemonModuleAPIDataManager.m in Sources */,
-				6A7A7B0C1C0F400E00251D97 /* PKDPokemonModulePresenter.m in Sources */,
+				FA3113FE1C0FD78300C762BD /* PKDPokemonModulePresenter.m in Sources */,
+				FA3113FD1C0FD78300C762BD /* PKDPokemonModuleItem.m in Sources */,
 				6A9B65E91C0E34EC00B274E9 /* PKDPokedexModuleItem.m in Sources */,
-				6A7A7B091C0F400E00251D97 /* PKDPokemonModuleLocalDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
