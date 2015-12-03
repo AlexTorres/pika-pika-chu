@@ -6,6 +6,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+typedef void (^PKDSuccessBlock)(id,BOOL);
+typedef void (^PKDErrorBlock)(NSError*);
+
 @protocol PKDPokemonModuleInteractorOutputProtocol;
 @protocol PKDPokemonModuleInteractorInputProtocol;
 @protocol PKDPokemonModuleViewProtocol;

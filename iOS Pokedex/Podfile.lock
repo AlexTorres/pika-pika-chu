@@ -16,18 +16,21 @@ PODS:
     - AFNetworking/NSURLSession
   - JSONModel (1.1.2)
   - MagicalRecord (2.3.0)
+  - OCMock (3.2)
   - pop (1.0.8)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.0-beta.1)
   - JSONModel
   - MagicalRecord
+  - OCMock
   - pop (~> 1.0)
 
 SPEC CHECKSUMS:
   AFNetworking: e3639f8310904c9888ddf03a2fa585633594a6e3
   JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
   MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
+  OCMock: 28def049ef47f996b515a8eeea958be7ccab2dbb
   pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
 
 COCOAPODS: 0.39.0

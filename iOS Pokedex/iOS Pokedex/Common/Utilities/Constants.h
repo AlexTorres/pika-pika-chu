@@ -18,5 +18,4 @@ extern NSString *const kPokemonViewID;
 extern NSString *const kPokemonPropCellID;
 
 
-typedef void (^PKDSuccessBlock)(id,BOOL);
-typedef void (^PKDErrorBlock)(NSError*);
+

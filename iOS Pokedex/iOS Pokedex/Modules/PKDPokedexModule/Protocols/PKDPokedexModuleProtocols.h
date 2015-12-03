@@ -13,6 +13,9 @@
 @protocol PKDPokedexModuleLocalDataManagerInputProtocol;
 @protocol PKDPokedexModuleAPIDataManagerInputProtocol;
 
+typedef void (^PKDSuccessBlock)(id,BOOL);
+typedef void (^PKDErrorBlock)(NSError*);
+
 
 @class PKDPokedexModuleWireFrame;
 @class PKDPokedexModuleItem;

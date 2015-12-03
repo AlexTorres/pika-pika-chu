@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^PKDSuccessBlock)(id,BOOL);
+typedef void (^PKDErrorBlock)(NSError*);
+
 @interface PKDService : NSObject
 
 + (PKDService *)sharedInstance;
@@ -15,5 +18,6 @@
                paramethers:(NSDictionary*)paramethers
                    success:(PKDSuccessBlock)successBlock
                      error:(PKDErrorBlock)failtureBlock;
+
 
 @end
