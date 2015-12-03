@@ -11,7 +11,7 @@
 -(void) loadPokemonWithString:(NSString *)pokemonString {
     [self.interactor loadPokemonFromApi:pokemonString];
 }
--(void) entriesFromInteractor:(NSArray *)sections model:(id)itemModel{
-    [self.view reloadPokemonInfo:sections model:itemModel];
+-(void) entriesFromInteractor:(NSArray *)sections rows:(NSArray *)rows model:(id)itemModel{
+    [self.view reloadPokemonInfo:sections rows:rows model:itemModel];
 }
 @end

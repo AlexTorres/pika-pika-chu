@@ -15,6 +15,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = self.pokemonListModel.name;
     [self.presenter loadPokemonWithString:self.pokemonListModel.resourceUri];
 }
 
@@ -32,8 +33,10 @@
 {
     [super viewWillDisappear:animated];
 }
-- (void)reloadPokemonInfo:(NSArray *)sections model:(PKDPokemonModuleItem *)itemModel {
-
+-(void)reloadPokemonInfo:(NSArray*)sections
+                    rows:(NSArray*)rows
+                   model:(PKDPokemonModuleItem*) itemModel {
+    self.rows = rows;
     self.sections = sections;
     self.moduleItem = itemModel;
     [self.tableView reloadData];
@@ -52,22 +55,16 @@
     return self.sections[section];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSString * sectionString = self.sections[section];
-    id obj = [self.moduleItem valueForKey:[sectionString camelCased]];
-    if([obj isKindOfClass:[NSString class]]||[obj isKindOfClass:[NSNumber class]])
-    {
-        return 1;
-    } else {
-        return 0;
-    }
+    NSArray *row = self.rows[section];
+    
+    return row.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kPokemonPropCellID forIndexPath:indexPath];
-    NSString * section = self.sections[[indexPath section]];
-    id obj = [self.moduleItem valueForKey:[section camelCased]];
-    if([obj isKindOfClass:[NSString class]])
-    {
+   
+    id obj = self.rows[[indexPath section]][[indexPath row]];
+    if([obj isKindOfClass:[NSString class]]) {
         cell.textLabel.text = obj;
     } else if([obj isKindOfClass:[NSNumber class]]) {
         cell.textLabel.text = [obj stringValue];

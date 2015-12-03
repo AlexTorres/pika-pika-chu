@@ -24,6 +24,7 @@
  * Add here your methods for communication PRESENTER -> VIEWCONTROLLER
  */
 -(void)reloadPokemonInfo:(NSArray*)sections
+                    rows:(NSArray*)rows
                        model:(PKDPokemonModuleItem*) itemModel;
 @end
 
@@ -52,6 +53,7 @@
 
  */
 -(void)entriesFromInteractor:(NSArray*)sections
+                        rows:(NSArray*)rows
                        model:(PKDPokemonModuleItem*) itemModel;
 @end
 

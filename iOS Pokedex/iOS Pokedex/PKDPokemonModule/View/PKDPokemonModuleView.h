@@ -14,5 +14,6 @@
 @property (nonatomic, strong) PKDPokemonListModel *pokemonListModel;
 @property (nonatomic, strong) PKDPokemonModuleItem *moduleItem;
 @property (nonatomic, strong) NSArray *sections;
+@property (nonatomic, strong) NSArray *rows;
 
 @end

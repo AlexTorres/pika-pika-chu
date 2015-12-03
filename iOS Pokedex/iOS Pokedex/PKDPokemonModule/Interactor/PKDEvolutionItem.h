@@ -11,7 +11,7 @@
 @end
 
 @interface PKDEvolutionItem : JSONModel
-@property (assign, nonatomic) NSInteger level;
+@property (strong, nonatomic) NSNumber <Optional> *level;
 @property (strong, nonatomic) NSString *method;
 @property (strong, nonatomic) NSString *to;
 
